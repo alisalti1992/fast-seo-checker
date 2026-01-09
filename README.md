@@ -177,6 +177,7 @@ All checks are performed in a single request with no additional HTTP calls, ensu
 
 - `API_KEY`: Your API key for authentication (optional - leave empty to disable authentication)
 - `PORT`: Server port (optional - defaults to 3000 if not set)
+- `APP_URL`: Application URL for Swagger documentation (optional - defaults to http://localhost:PORT)
 
 ### Authentication Behavior
 
