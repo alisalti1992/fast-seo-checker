@@ -1,0 +1,41 @@
+{
+  "name": "fast-seo-checker",
+  "version": "1.0.0",
+  "description": "A fast and simple API for checking SEO metrics of web pages",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisalti1992/fast-seo-checker.git"
+  },
+  "keywords": [
+    "seo",
+    "seo-checker",
+    "seo-audit",
+    "seo-analysis",
+    "api",
+    "express",
+    "swagger",
+    "meta-tags",
+    "web-scraping",
+    "cheerio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisalti1992/fast-seo-checker/issues"
+  },
+  "homepage": "https://github.com/alisalti1992/fast-seo-checker#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
